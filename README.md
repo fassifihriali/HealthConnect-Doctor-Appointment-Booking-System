@@ -1,5 +1,4 @@
 # 🩺 HEALTHCONNECT
----
 
 # 🏥 Doctor Appointment Booking System
 
