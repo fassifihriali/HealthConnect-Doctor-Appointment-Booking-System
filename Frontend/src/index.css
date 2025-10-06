@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Outfit;
+}
+
+.active hr{
+  @apply block
+}
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+.login-background {
+  background: radial-gradient(circle at 20% 30%, rgba(255,255,255,0.15), transparent 40%),
+              radial-gradient(circle at 80% 70%, rgba(255,255,255,0.1), transparent 50%),
+              linear-gradient(135deg, #a8e0ff, #70cad1, #3c9ee7);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+@media (max-width:740px) {
+  .active p{
+    @apply text-white bg-primary
+  }
+}
